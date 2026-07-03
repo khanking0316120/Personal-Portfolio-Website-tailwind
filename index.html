@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mohammed Masab | Portfolio</title>
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body class="bg-slate-50 text-slate-800 font-sans flex flex-col min-h-screen">
+
+    <!-- 1. Header / Navbar -->
+    <header class="bg-white shadow-sm border-b border-slate-200 sticky top-0 z-50">
+        <div class="container mx-auto px-6 py-4 flex flex-col md:flex-row justify-between items-center gap-4">
+            <a href="index.html" class="text-2xl font-bold text-blue-600 tracking-tight">Mohammed Masab</a>
+            <nav class="flex flex-wrap justify-center space-x-6 text-sm md:text-base font-medium text-slate-600">
+                <!-- Active Link -->
+                <a href="index.html" class="text-blue-600 border-b-2 border-blue-600 pb-1">Home</a>
+                <a href="about.html" class="hover:text-blue-600 transition">About</a>
+                <a href="skills.html" class="hover:text-blue-600 transition">Skills</a>
+                <a href="projects.html" class="hover:text-blue-600 transition">Projects</a>
+                <a href="contact.html" class="hover:text-blue-600 transition">Contact</a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- 2. Hero Section -->
+    <section class="bg-white border-b border-slate-200 py-20 lg:py-32">
+        <div class="container mx-auto px-6 flex flex-col-reverse md:flex-row items-center justify-between gap-12">
+            
+            <!-- Text Content -->
+            <div class="md:w-1/2 text-center md:text-left animate-fade-in">
+                <h1 class="text-4xl md:text-5xl lg:text-6xl font-extrabold text-slate-900 leading-tight mb-6">
+                    Hi, I am a <br> 
+                    <span class="bg-clip-text text-transparent bg-gradient-to-r from-blue-600 to-purple-600 animate-pulse inline-block">
+                        Full-Stack Web Developer
+                    </span>
+                </h1>
+                <p class="text-lg text-slate-500 mb-8 max-w-lg mx-auto md:mx-0 leading-relaxed">
+                    Based in Pakistan, I specialize in building modern, responsive websites and exploring intelligent digital solutions using technologies like HTML, CSS, Tailwind, and Agentic AI.
+                </p>
+                <div class="flex flex-col sm:flex-row justify-center md:justify-start space-y-4 sm:space-y-0 sm:space-x-4">
+                    <a href="projects.html" class="bg-blue-600 text-white font-bold px-8 py-3.5 rounded-xl shadow-lg shadow-blue-600/30 hover:bg-blue-700 hover:-translate-y-1 transition-all duration-300">View My Work</a>
+                    <a href="contact.html" class="bg-white text-slate-700 border border-slate-300 font-bold px-8 py-3.5 rounded-xl hover:bg-slate-50 hover:text-blue-600 hover:-translate-y-1 transition-all duration-300">Contact Me</a>
+                </div>
+            </div>
+
+            <!-- Profile Image -->
+            <div class="md:w-1/2 flex justify-center">
+                <div class="relative">
+                    <div class="absolute inset-0 bg-blue-600 rounded-full blur-2xl opacity-20"></div>
+                    <img src="images/profile.jpg" alt="Mohammed Masab Profile" class="w-64 h-64 md:w-80 md:h-80 lg:w-96 lg:h-96 object-cover rounded-full shadow-[0_8px_30px_rgb(0,0,0,0.12)] border-8 border-white relative z-10">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 3. About Preview -->
+    <section class="py-20 bg-slate-50">
+        <div class="container mx-auto px-6 max-w-5xl text-center">
+            <h2 class="text-3xl font-bold text-slate-900 mb-6">A Little Bit About Me</h2>
+            <div class="bg-white p-8 rounded-3xl shadow-[0_4px_20px_rgb(0,0,0,0.03)] border border-slate-100 flex flex-col md:flex-row items-center gap-8 text-left">
+                <img src="images/gallery-1.jpg" alt="About Intro" class="w-full md:w-1/3 h-48 object-cover rounded-2xl bg-slate-200">
+                <div class="md:w-2/3">
+                    <p class="text-slate-600 text-lg leading-relaxed mb-6">
+                        I am deeply passionate about creating functional and modern web applications. Currently enrolled in a full-stack training program, I focus on automating workflows, UI/UX design, and exploring how human behavior intersects with digital logic.
+                    </p>
+                    <a href="about.html" class="text-blue-600 font-bold hover:underline flex items-center">
+                        Read More About My Journey 
+                        <span class="ml-2">→</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 4. Skills Preview -->
+    <section class="py-20 bg-white border-y border-slate-200">
+        <div class="container mx-auto px-6 max-w-6xl text-center">
+            <h2 class="text-3xl font-bold text-slate-900 mb-10">My Core Skills</h2>
+            <div class="flex flex-wrap justify-center gap-4 mb-10">
+                <span class="px-6 py-3 bg-slate-50 border border-slate-200 rounded-2xl text-slate-700 font-bold text-lg hover:border-blue-500 hover:text-blue-600 transition-all shadow-sm">HTML5</span>
+                <span class="px-6 py-3 bg-slate-50 border border-slate-200 rounded-2xl text-slate-700 font-bold text-lg hover:border-blue-500 hover:text-blue-600 transition-all shadow-sm">CSS3</span>
+                <span class="px-6 py-3 bg-slate-50 border border-slate-200 rounded-2xl text-slate-700 font-bold text-lg hover:border-blue-500 hover:text-blue-600 transition-all shadow-sm">Tailwind CSS</span>
+                <span class="px-6 py-3 bg-slate-50 border border-slate-200 rounded-2xl text-slate-700 font-bold text-lg hover:border-blue-500 hover:text-blue-600 transition-all shadow-sm">JavaScript</span>
+                <span class="px-6 py-3 bg-slate-50 border border-slate-200 rounded-2xl text-slate-700 font-bold text-lg hover:border-blue-500 hover:text-blue-600 transition-all shadow-sm">Dart & Flutter</span>
+                <span class="px-6 py-3 bg-slate-50 border border-slate-200 rounded-2xl text-slate-700 font-bold text-lg hover:border-blue-500 hover:text-blue-600 transition-all shadow-sm">Agentic AI Tools</span>
+            </div>
+            <a href="skills.html" class="inline-block bg-slate-900 text-white font-semibold px-8 py-3 rounded-xl hover:bg-slate-800 transition duration-300">
+                View Full Skillset
+            </a>
+        </div>
+    </section>
+
+    <!-- 5. Featured Projects Preview -->
+    <section class="py-20 bg-slate-50">
+        <div class="container mx-auto px-6 max-w-6xl">
+            <h2 class="text-3xl font-bold text-center text-slate-900 mb-12">Featured Projects</h2>
+            <div class="grid md:grid-cols-3 gap-8 mb-12">
+                
+                <!-- Project 1 -->
+                <div class="bg-white rounded-2xl shadow-[0_4px_20px_rgb(0,0,0,0.03)] border border-slate-100 overflow-hidden flex flex-col group">
+                    <div class="h-48 bg-slate-200 relative overflow-hidden">
+                        <img src="images/school.JPG" alt="Lancer RMS" class="w-full h-full object-cover group-hover:scale-110 transition duration-500">
+                    </div>
+                    <div class="p-6 flex-grow flex flex-col">
+                        <h3 class="text-xl font-bold text-slate-900 mb-2">Lancer Model School RMS</h3>
+                        <p class="text-slate-600 text-sm mb-4 flex-grow">A complete digital result management layout that transitioned the school from manual to automated workflows.</p>
+                        <a href="projects.html" class="text-blue-600 font-bold text-sm hover:underline">View Details →</a>
+                    </div>
+                </div>
+
+                <!-- Project 2 -->
+                <div class="bg-white rounded-2xl shadow-[0_4px_20px_rgb(0,0,0,0.03)] border border-slate-100 overflow-hidden flex flex-col group">
+                    <div class="h-48 bg-slate-200 relative overflow-hidden">
+                        <img src="images/mag.JPG" alt="Murtaza pk" class="w-full h-full object-cover group-hover:scale-110 transition duration-500">
+                    </div>
+                    <div class="p-6 flex-grow flex flex-col">
+                        <h3 class="text-xl font-bold text-slate-900 mb-2">Retail Store Management</h3>
+                        <p class="text-slate-600 text-sm mb-4 flex-grow">Managing database, product configurations, and digital presence for an online retail brand.</p>
+                        <a href="projects.html" class="text-blue-600 font-bold text-sm hover:underline">View Details →</a>
+                    </div>
+                </div>
+
+                <!-- Project 3 -->
+                <div class="bg-white rounded-2xl shadow-[0_4px_20px_rgb(0,0,0,0.03)] border border-slate-100 overflow-hidden flex flex-col group">
+                    <div class="h-48 bg-slate-200 relative overflow-hidden">
+                        <img src="images/cloud.JPG" alt="Cloud Gaming" class="w-full h-full object-cover group-hover:scale-110 transition duration-500">
+                    </div>
+                    <div class="p-6 flex-grow flex flex-col">
+                        <h3 class="text-xl font-bold text-slate-900 mb-2">Cloud Gaming UI</h3>
+                        <p class="text-slate-600 text-sm mb-4 flex-grow">A web interface designed to share insights and tutorials for playing high-end PC titles on mobile.</p>
+                        <a href="projects.html" class="text-blue-600 font-bold text-sm hover:underline">View Details →</a>
+                    </div>
+                </div>
+
+            </div>
+            
+            <div class="text-center">
+                <a href="projects.html" class="inline-block bg-blue-600 text-white font-bold px-8 py-3.5 rounded-xl shadow-lg shadow-blue-600/30 hover:bg-blue-700 hover:-translate-y-1 transition-all duration-300">
+                    Explore All Projects
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-slate-900 text-white py-8 text-center mt-auto border-t border-slate-800">
+        <div class="container mx-auto px-6">
+            <p class="text-slate-400 text-sm">&copy; 2026 Mohammed Masab. All rights reserved.</p>
+        </div>
+    </footer>
+
+</body>
+</html>

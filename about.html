@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Me | Mohammed Masab</title>
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Custom CSS Link -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body class="bg-slate-50 text-slate-800 font-sans flex flex-col min-h-screen">
+
+    <!-- Header / Navbar -->
+    <header class="bg-white shadow-sm border-b border-slate-200 sticky top-0 z-50">
+        <div class="container mx-auto px-6 py-4 flex flex-col md:flex-row justify-between items-center gap-4">
+            <a href="index.html" class="text-2xl font-bold text-blue-600 tracking-tight">Mohammed Masab</a>
+            <nav class="flex flex-wrap justify-center space-x-6 text-sm md:text-base font-medium text-slate-600">
+                <a href="index.html" class="hover:text-blue-600 transition">Home</a>
+                <!-- Active Link -->
+                <a href="about.html" class="text-blue-600 border-b-2 border-blue-600 pb-1">About</a>
+                <a href="skills.html" class="hover:text-blue-600 transition">Skills</a>
+                <a href="projects.html" class="hover:text-blue-600 transition">Projects</a>
+                <a href="contact.html" class="hover:text-blue-600 transition">Contact</a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- 1. About Hero Section -->
+    <section class="bg-white border-b border-slate-200 py-20 text-center animate-fade-in">
+        <div class="container mx-auto px-6">
+            <h1 class="text-4xl md:text-5xl font-extrabold text-slate-900 mb-4">About Me</h1>
+            <p class="text-lg text-slate-500 max-w-2xl mx-auto">Bridging the gap between creative design, human psychology, and robust web development.</p>
+        </div>
+    </section>
+
+    <!-- 2. Personal Introduction -->
+    <section class="container mx-auto px-6 py-16">
+        <div class="max-w-5xl mx-auto bg-white p-8 md:p-12 rounded-3xl shadow-[0_4px_20px_rgb(0,0,0,0.03)] border border-slate-100 flex flex-col md:flex-row items-center gap-10">
+            <div class="md:w-1/3">
+                <div class="relative">
+                    <div class="absolute inset-0 bg-blue-600 rounded-2xl blur-xl opacity-10"></div>
+                    <img src="images/profile.jpg" alt="Mohammed Masab" class="w-full h-auto object-cover rounded-2xl shadow-lg relative z-10">
+                </div>
+            </div>
+            <div class="md:w-2/3">
+                <h2 class="text-3xl font-bold text-slate-900 mb-4">Who am I?</h2>
+                <p class="text-slate-600 text-lg leading-relaxed mb-4">
+                    Hello! I am Mohammed Masab, a 21-year-old developer based in Kohat, Pakistan. I am deeply passionate about full-stack web development, Agentic AI, and creating digital solutions that make a real-world impact.
+                </p>
+                <p class="text-slate-600 text-lg leading-relaxed">
+                    My goal is to continuously evolve as a developer and build scalable software. When I'm not coding, I'm usually researching new technologies, understanding human behavior through psychology, or upskilling myself for future opportunities.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- 3. Education Section -->
+    <section class="bg-slate-100 py-16 border-y border-slate-200">
+        <div class="container mx-auto px-6 max-w-6xl">
+            <h2 class="text-3xl font-bold text-center text-slate-900 mb-10">My Education & Training</h2>
+            <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
+                <!-- Education Card 1 -->
+                <div class="bg-white p-6 rounded-2xl shadow-sm border border-slate-200 hover:border-blue-400 hover:shadow-md transition-all">
+                    <h3 class="text-lg font-bold text-blue-600">BS Computer Science</h3>
+                    <p class="text-slate-800 font-medium mt-2">Virtual University of Pakistan</p>
+                    <p class="text-slate-500 text-sm mt-1">Currently in 4th Semester</p>
+                </div>
+                <!-- Education Card 2 -->
+                <div class="bg-white p-6 rounded-2xl shadow-sm border border-slate-200 hover:border-blue-400 hover:shadow-md transition-all">
+                    <h3 class="text-lg font-bold text-blue-600">Full-Stack Web Dev</h3>
+                    <p class="text-slate-800 font-medium mt-2">Skills Education (skillseducation.pk)</p>
+                    <p class="text-slate-500 text-sm mt-1">Currently Enrolled in 6-Month Program</p>
+                </div>
+                <!-- Education Card 3 -->
+                <div class="bg-white p-6 rounded-2xl shadow-sm border border-slate-200 hover:border-blue-400 hover:shadow-md transition-all">
+                    <h3 class="text-lg font-bold text-blue-600">Intro to Networks</h3>
+                    <p class="text-slate-800 font-medium mt-2">Cisco Networking Academy</p>
+                    <p class="text-slate-500 text-sm mt-1">Completed June 2026 (Score: 95%)</p>
+                </div>
+                <!-- Education Card 4 -->
+                <div class="bg-white p-6 rounded-2xl shadow-sm border border-slate-200 hover:border-blue-400 hover:shadow-md transition-all">
+                    <h3 class="text-lg font-bold text-blue-600">Mobile App Dev</h3>
+                    <p class="text-slate-800 font-medium mt-2">NAVTTC Training Program</p>
+                    <p class="text-slate-500 text-sm mt-1">Selected in June 2026</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 4. Experience / Learning Journey -->
+    <section class="container mx-auto px-6 py-16 max-w-5xl">
+        <h2 class="text-3xl font-bold text-center text-slate-900 mb-10">Experience & Journey</h2>
+        <div class="space-y-8">
+            <div class="flex flex-col md:flex-row gap-6 items-start bg-white p-8 rounded-2xl border border-slate-100 shadow-sm">
+                <div class="bg-blue-50 text-blue-600 w-14 h-14 flex items-center justify-center rounded-xl font-bold text-xl shrink-0">1</div>
+                <div>
+                    <h3 class="text-2xl font-semibold text-slate-900">Freelance Web Development</h3>
+                    <p class="text-slate-600 mt-2 leading-relaxed">I focus on creating functional and modern web applications. One of my key achievements was developing a customized digital result management system for Lancer Model School, automating their workflows and saving days of manual data entry.</p>
+                </div>
+            </div>
+            <div class="flex flex-col md:flex-row gap-6 items-start bg-white p-8 rounded-2xl border border-slate-100 shadow-sm">
+                <div class="bg-blue-50 text-blue-600 w-14 h-14 flex items-center justify-center rounded-xl font-bold text-xl shrink-0">2</div>
+                <div>
+                    <h3 class="text-2xl font-semibold text-slate-900">Continuous Upskilling</h3>
+                    <p class="text-slate-600 mt-2 leading-relaxed">I am actively participating in training courses to refine my skills in modern frameworks. I aim to use my development income to fund future internships and professional expansion in other cities.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 5. Hobbies & Interests -->
+    <section class="bg-slate-100 py-16 border-y border-slate-200">
+        <div class="container mx-auto px-6 max-w-6xl">
+            <h2 class="text-3xl font-bold text-center text-slate-900 mb-10">Hobbies & Interests</h2>
+            <div class="grid grid-cols-2 md:grid-cols-4 gap-6 text-center">
+                <div class="p-8 bg-white rounded-2xl shadow-sm border border-slate-200 hover:-translate-y-1 transition duration-300">
+                    <div class="text-4xl mb-4">🧠</div>
+                    <h4 class="font-bold text-slate-900">Psychology</h4>
+                    <p class="text-sm text-slate-500 mt-2">Reading Plato, Aristotle & human behavior</p>
+                </div>
+                <div class="p-8 bg-white rounded-2xl shadow-sm border border-slate-200 hover:-translate-y-1 transition duration-300">
+                    <div class="text-4xl mb-4">💻</div>
+                    <h4 class="font-bold text-slate-900">Logic Building</h4>
+                    <p class="text-sm text-slate-500 mt-2">Testing new algorithms and code structures</p>
+                </div>
+                <div class="p-8 bg-white rounded-2xl shadow-sm border border-slate-200 hover:-translate-y-1 transition duration-300">
+                    <div class="text-4xl mb-4">🎮</div>
+                    <h4 class="font-bold text-slate-900">Cloud Gaming</h4>
+                    <p class="text-sm text-slate-500 mt-2">Chikii & Starparks testing</p>
+                </div>
+                <div class="p-8 bg-white rounded-2xl shadow-sm border border-slate-200 hover:-translate-y-1 transition duration-300">
+                    <div class="text-4xl mb-4">🤖</div>
+                    <h4 class="font-bold text-slate-900">AI Integration</h4>
+                    <p class="text-sm text-slate-500 mt-2">Exploring Agentic AI tools</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 6. Image Gallery Section -->
+    <section class="container mx-auto px-6 py-16 max-w-6xl">
+        <h2 class="text-3xl font-bold text-center text-slate-900 mb-10">My Gallery</h2>
+        <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
+            <div class="overflow-hidden rounded-2xl shadow-sm h-56 bg-slate-200 border border-slate-200 flex items-center justify-center relative group">
+                <span class="absolute text-slate-500 z-0 font-medium">gallery-1.jpg</span>
+                <img src="images/gallery-1.jpg" alt="Gallery Image 1" class="w-full h-full object-cover relative z-10 group-hover:scale-110 transition duration-500">
+            </div>
+            <div class="overflow-hidden rounded-2xl shadow-sm h-56 bg-slate-200 border border-slate-200 flex items-center justify-center relative group">
+                <span class="absolute text-slate-500 z-0 font-medium">gallery-2.jpg</span>
+                <img src="images/gallery-2.jpg" alt="Gallery Image 2" class="w-full h-full object-cover relative z-10 group-hover:scale-110 transition duration-500">
+            </div>
+            <div class="overflow-hidden rounded-2xl shadow-sm h-56 bg-slate-200 border border-slate-200 flex items-center justify-center relative group">
+                <span class="absolute text-slate-500 z-0 font-medium">gallery-3.jpg</span>
+                <img src="images/gallery-3.jpg" alt="Gallery Image 3" class="w-full h-full object-cover relative z-10 group-hover:scale-110 transition duration-500">
+            </div>
+            <div class="overflow-hidden rounded-2xl shadow-sm h-56 bg-slate-200 border border-slate-200 flex items-center justify-center relative group">
+                <span class="absolute text-slate-500 z-0 font-medium">gallery-4.jpg</span>
+                <img src="images/gallery-4.jpg" alt="Gallery Image 4" class="w-full h-full object-cover relative z-10 group-hover:scale-110 transition duration-500">
+            </div>
+            <div class="overflow-hidden rounded-2xl shadow-sm h-56 bg-slate-200 border border-slate-200 flex items-center justify-center relative group">
+                <span class="absolute text-slate-500 z-0 font-medium">gallery-5.jpg</span>
+                <img src="images/gallery-5.jpg" alt="Gallery Image 5" class="w-full h-full object-cover relative z-10 group-hover:scale-110 transition duration-500">
+            </div>
+            <div class="overflow-hidden rounded-2xl shadow-sm h-56 bg-slate-200 border border-slate-200 flex items-center justify-center relative group">
+                <span class="absolute text-slate-500 z-0 font-medium">gallery-6.jpg</span>
+                <img src="images/gallery-6.jpg" alt="Gallery Image 6" class="w-full h-full object-cover relative z-10 group-hover:scale-110 transition duration-500">
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-slate-900 text-white py-8 text-center mt-auto border-t border-slate-800">
+        <div class="container mx-auto px-6">
+            <p class="text-slate-400 text-sm">&copy; 2026 Mohammed Masab. All rights reserved.</p>
+        </div>
+    </footer>
+
+</body>
+</html>
